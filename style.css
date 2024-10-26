@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Dancing+Script:wght@400;700&family=Fasthand&family=Gruppo&family=Island+Moments&family=Kaushan+Script&family=Lusitana&family=Monoton&family=Moon+Dance&family=Quicksand&family=Rubik+Vinyl&family=Rye&family=Satisfy&display=swap');
+*{
+    margin: 0%;
+    padding: 0px;
+    border: none;
+    font-family: "Lusitana", serif;
+}
+body{
+    overflow-x:hidden ;
+    background-color: antiquewhite;
+
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+header{
+    background-image: url(https://s1.1zoom.me/b5545/524/India_Rivers_Riverboat_Alappuzha_Kerala_Palms_527898_1920x1080.jpg);
+    background-color: rgba(50, 49, 49, 0.5);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    text-shadow: 2px 2px 2px rgb(105, 21, 21);
+    font-family: "Dancing Script", serif;
+
+}
+header h1{
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    font-family: "Island Moments", serif;
+
+}
+h1 span{
+    font-size: 20px;
+}
+@media(max-width:500px){
+    header{
+        background-image: url(https://cdn.pixabay.com/photo/2021/08/08/14/25/hut-6531048_640.jpg);
+    }
+    header h1{
+        font-size: 80px;
+    }
+    html{
+        overflow-x:hidden ;
+    }
+}
+.destination{
+    margin:1rem;
+    position: relative;
+}
+.destination-name{
+    width: 100%;
+    text-align: center;
+    color:white;
+    font-weight: bold;
+    font-size: 2rem;
+    position: absolute;
+    font-family: "Kaushan Script", serif;
+}
+.destination img{
+    width: 20rem;
+    height: 100%;
+}
+.pic{
+    height: 100%;
+}
+.districts{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    display: flex;
+    justify-content: space-between; 
+}
+.districts::-webkit-scrollbar{
+    display: none;
+}
+.website_description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+.description{
+    text-align: justify;
+    font-weight: 500;
+    font-size: 20px;
+}
+.thirdslide{
+    background-image:linear-gradient(to bottom right, rgb(196, 190, 184), rgb(146, 40, 40)) ;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.thirdslide h2{
+    font-family: "Rye", serif;
+}
+.secondimg{
+    width: 75%;
+}
+@media(max-width:500px){
+    .secondimg{
+        width: 100%;
+    }
+}
+.bullettext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .bullettext p{
+    font-size: 20px;
+ }
+ footer{
+    background-color: rgb(165, 200, 113);
+    margin: 0;
+    border: none;
+    padding: 3rem;
+    text-align: justify;
+ }
